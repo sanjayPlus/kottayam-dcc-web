@@ -6,6 +6,7 @@ export default function GalleryTopNavbar({active,setActive}) {
     const handleButtonClickImage = () => {
         router.push('/gallery');
     };
+    
     return (
         <div className='w-full flex flex-col justify-center items-center bg-white/90'>
             <MdArrowBackIosNew className='text-lg cursor-pointer absolute top-5 left-5 text-black' onClick={() => router.back()} />
